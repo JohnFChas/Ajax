@@ -17,9 +17,9 @@ Dokumentation för tjänsten finns här: https://github.com/JohnFChas/DummyApi/w
 - Skapa nya posts och ladda upp till servern
 - Ta bort gamla posts både i klienten och på servern
 
-	┌───────────┐
-	│ Uppgifter │
-	└───────────┘
+	┌────────────────┐
+	│ Extrauppgifter │
+	└────────────────┘
 - Sök efter posts av specifika authors
 - Lägg till favorit-authors så användaren snabbt kan hitta deras posts
 - Skapa en custom service som hanterar alla http-anrop mot servern
