@@ -1,0 +1,32 @@
+﻿	┌────────────────────────┐
+	│ Labbupgift: Nyhetssida │
+	└────────────────────────┘
+Du ska bygga ett webbgränssnitt för en öppen webbtjänst nyhetsartiklar.
+Det ska byggas som en hemsida med hjälp av AngularJS och Bootstrap.
+Webbtjänsten ger möjlighet att hämta, skapa och ta bort nyhetsartiklar (posts)
+
+Webbtjänsten finns på den här addressen: http://dummyapi.kodalagom.se/api/posts
+Dokumentation för tjänsten finns här: https://github.com/JohnFChas/DummyApi/wiki
+
+	┌───────────┐
+	│ Uppgifter │
+	└───────────┘
+- Använd angular routes
+- Använd bootstraps grid för struktur och responsivitet
+- Hämta alla posts och visa upp på hemsidan
+- Skapa nya posts och ladda upp till servern
+- Ta bort gamla posts både i klienten och på servern
+
+	┌───────────┐
+	│ Uppgifter │
+	└───────────┘
+- Sök efter posts av specifika authors
+- Lägg till favorit-authors så användaren snabbt kan hitta deras posts
+- Skapa en custom service som hanterar alla http-anrop mot servern
+
+	┌───────────┐
+	│ Inlämning │
+	└───────────┘
+- Skapa ett GIT repository, till exempel på github.com.
+- Pusha upp ert projekt till ert repository.
+- Maila länken till repositoryt till mig på john.fristedt@chas.se.
