@@ -1,0 +1,38 @@
+﻿<div class="col-md-12">
+    <h1 ng-bind="title"></h1>
+</div>
+<div class="col-md-4">
+    <form ng-submit="addPost()">
+        <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" 
+                   id="author"
+                   class="form-control" 
+                   placeholder="Author..."
+                   ng-model="newPost.author" />
+        </div>
+        <div class="form-group">
+            <label for="body">Body</label>
+            <textarea id="body"
+                      style="width: 100%; height: 200px;"
+                      class="form-control"
+                      placeholder="Body..."
+                      ng-model="newPost.body" />
+        </div>
+
+        <button type="submit" class="btn btn-default">
+            Add post
+        </button>
+    </form>
+</div>
+
+<div ng-repeat="post in posts track by $index">
+    <div class="col-md-6 col-md-offset-3">
+        <h2>Post title</h2>
+        <h5>
+            <span ng-bind="post.author"></span>
+            <span ng-bind="post.timeSent"></span>
+        </h5>
+        <p ng-bind="post.body"></p>
+    </div>
+</div>
