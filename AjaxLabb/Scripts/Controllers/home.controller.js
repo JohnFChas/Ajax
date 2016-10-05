@@ -26,7 +26,7 @@ angular.module("mainModule")
                 postsApi.deletePost($scope.posts[index].id)
                     .then(function () {
                         $scope.posts.splice(index, 1);
-                    })
+                    });
             };
         }
     ]);
